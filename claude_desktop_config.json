@@ -1,0 +1,27 @@
+{
+  "mcpServers": {
+    "database-assistant": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        "/path/to/your/MCP",
+        "run",
+        "python",
+        "-m",
+        "db_mcp.server"
+      ],
+      "env": {
+        "DB_TYPE": "postgresql",
+        "DB_HOST": "localhost",
+        "DB_PORT": "5432",
+        "DB_NAME": "my_database",
+        "DB_USER": "my_user",
+        "DB_PASSWORD": "my_password",
+        "OLLAMA_BASE_URL": "http://localhost:11434",
+        "OLLAMA_MODEL": "llama3",
+        "MCP_TRANSPORT": "stdio",
+        "LOG_LEVEL": "WARNING"
+      }
+    }
+  }
+}

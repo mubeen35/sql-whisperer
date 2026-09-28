@@ -154,13 +154,13 @@ db> exit
 
 | Command | Description |
 |---------|-------------|
-| `ask <question>` | 🤖 Natural language → Ollama generates SQL → executes → summarizes |
-| `sql <query>` | ⚡ Run a raw SELECT query directly |
-| `tables` | 📋 List all tables and views |
-| `desc <table>` | 🔍 Inspect columns, types, keys, indexes |
-| `schema` | 📄 Full schema as formatted text |
-| `health` | 💚 Check DB + Ollama connectivity |
-| `models` | 🧠 List locally available Ollama models |
+| `ask <question>` | Natural language → Ollama generates SQL → executes → summarizes |
+| `sql <query>` | Run a raw SELECT query directly |
+| `tables` | List all tables and views |
+| `desc <table>` | Inspect columns, types, keys, indexes |
+| `schema` | Full schema as formatted text |
+| `health` | Check DB + Ollama connectivity |
+| `models` | List locally available Ollama models |
 | `help` | Show this list |
 | `exit` | Quit |
 
